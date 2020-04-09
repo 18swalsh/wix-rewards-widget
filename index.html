@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+    [
+      '//static.parastorage.com/services/js-sdk/1.109.0/js/wix.min.js',
+      'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
+      'get-rewards.js'
+    ].forEach(function(src) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      document.head.appendChild(script);
+    });
+
+
+    </script>
+
+  </head>
+
+  <body>
+
+  <p>Enter Promo Code: <span id="promoCode">XXXXX</span> to redeem rewards</p>
+  <p>Rewards: <span id="rewardsPoints">1000</span></p>
+
+  </body>
+</html>
