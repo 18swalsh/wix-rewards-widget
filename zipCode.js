@@ -1,10 +1,9 @@
 /*import required modules */
 //const cheerio=require("cheerio");
+//const request=require('request');
 
 import cheerio from "cheerio";
 import request from "request";
-
-//const request=require('request');
 
 /*list of states hardcoded into an object*/
 let states={'Alabama':[],
